@@ -6,7 +6,7 @@ git init 创建本地git目录
 
 git add . 添加项目到本地缓存
 
-git commit - m "提交的注释" 
+git commit - m "提交的注释"
 
 git clone xxx.git  克隆项目
 
@@ -39,5 +39,12 @@ git commit --amend    刷新从新提交
 git branch <新分支名字>  新建分支
 
 git push origin <新分支名字>   将新分支发布在github上
+
+git status 查看项目状态
+
+git remote -v  查看所有远程仓库地址
+
+git push origin develop:master -f       把本地的 develop 分支强制(-f)推送到远程 master
+
 
     
