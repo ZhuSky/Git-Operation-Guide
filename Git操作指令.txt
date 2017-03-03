@@ -36,7 +36,7 @@ git commit -s -am "更新至4.0.2"
 
 git commit --amend    刷新从新提交
 
-git branch <新分支名字>  新建分支
+git branch <新分支名字>  新建分支(不要加<>)
 
 git push origin <新分支名字>   将新分支发布在github上
 
